@@ -61,7 +61,7 @@ const SectionFive: React.FC = () => {
   return (
     <section className="relative min-h-screen bg-black text-white flex flex-col justify-center items-center px-4" data-section="section5">
       <h2 className="text-3xl md:text-5xl font-orbitron text-center mb-6 text-white/90 animate-pulse">
-        Take 5: Está pronto para sua sorte final?
+        Take 5: Ingressos
       </h2>
 
       <p className="text-lg text-center mb-8 text-white/70 italic">
