@@ -7,6 +7,8 @@ import SectionTwo from '../components/SectionTwo';
 import SectionThree from '../components/SectionThree';
 import SectionFour from '../components/SectionFour';
 import AudioPlayer from '../components/AudioPlayer';
+import { Section } from 'lucide-react';
+import SectionFive from '../components/SectionFive';
 
 const Index = () => {
   const [currentSection, setCurrentSection] = useState(0);
@@ -40,7 +42,7 @@ const Index = () => {
       
       
       <SectionFour />
-      
+      <SectionFive />
       {/* Footer */}
       <Footer />
     </div>
